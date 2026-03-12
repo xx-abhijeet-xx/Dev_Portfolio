@@ -23,7 +23,6 @@ export function Contact() {
       <div className="contact-links reveal">
         <a href={SITE.linkedin} target="_blank" rel="noopener noreferrer" className="contact-link"><LinkedInIcon /> LinkedIn</a>
         <a href={SITE.github}   target="_blank" rel="noopener noreferrer" className="contact-link"><GitHubIcon />   GitHub</a>
-        <a href={SITE.portfolio} target="_blank" rel="noopener noreferrer" className="contact-link"><ExtIcon />      Portfolio</a>
       </div>
     </section>
   )
