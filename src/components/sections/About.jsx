@@ -1,5 +1,6 @@
 import { useCardTilt } from '@hooks/useCardTilt'
 import { SITE } from '@lib/constants'
+import aboutPhoto from '../../assests/images/58142 (1).webp'
 
 function BentoBox({ children, className = '', style = {} }) {
   const { ref, onMouseMove, onMouseLeave } = useCardTilt({ maxTiltX: 5, maxTiltY: 7, perspective: 900 })
@@ -29,9 +30,15 @@ export function About() {
 
       <div className="bento-grid reveal">
 
-        {/* Photo placeholder */}
+        {/* Photo */}
         <BentoBox className="b-photo">
-          <div className="b-photo-inner" role="img" aria-label="Abhijeet Verma — AV monogram placeholder" />
+          <img
+            className="b-photo-inner"
+            src={aboutPhoto}
+            alt="Abhijeet Verma portrait"
+            loading="lazy"
+            decoding="async"
+          />
         </BentoBox>
 
         {/* Name */}
