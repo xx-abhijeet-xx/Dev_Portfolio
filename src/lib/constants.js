@@ -11,8 +11,8 @@ export const SITE = {
   location:       'Pune, India',
   email:          'contact.abhijeetverma@gmail.com',
   linkedin:       'https://www.linkedin.com/in/abhijeet-verma-dev/',
-  github:         'https://github.com/xx-abhijeet-xx',
-  githubUsername: 'xx-abhijeet-xx',     // ← update when you rename
+  github:         'https://github.com/abhijeet-builds',
+  githubUsername: 'abhijeet-builds',     // ← update when you rename
   portfolio:      'https://abhijeet-verma.vercel.app',
   openToWork:     true,
 }
@@ -119,7 +119,7 @@ export const PROJECTS = [
     name:     'Real-Time Chat Application',
     desc:     'Production-ready messaging platform with WebSocket communication, Redis pub/sub for scalability, and secure JWT-based authentication.',
     stack:    ['Next.js', 'TypeScript', 'Redis', 'WebSockets', 'JWT'],
-    links:    [{ label: 'GitHub', url: 'https://github.com/xx-abhijeet-xx' }],
+    links:    [{ label: 'GitHub', url: 'https://github.com/abhijeet-builds' }],
     featured: false,
   },
   {
@@ -131,7 +131,7 @@ export const PROJECTS = [
     stack:    ['JavaScript', 'GSAP', 'Locomotive Scroll', 'CSS3', 'Netlify'],
     links:    [
       { label: 'Live Site', url: 'https://thisisdigital.netlify.app/' },
-      { label: 'GitHub',    url: 'https://github.com/xx-abhijeet-xx' },
+      { label: 'GitHub',    url: 'https://github.com/abhijeet-builds' },
     ],
     featured: false,
   },
@@ -142,7 +142,7 @@ export const PROJECTS = [
     name:     'Neverland Agency Website',
     desc:     'Full SDLC from concept to deployment. Immersive agency website with smooth scroll, GSAP animations and cross-browser compatibility.',
     stack:    ['JavaScript', 'GSAP', 'Locomotive Scroll', 'HTML5', 'CSS3'],
-    links:    [{ label: 'GitHub', url: 'https://github.com/xx-abhijeet-xx' }],
+    links:    [{ label: 'GitHub', url: 'https://github.com/abhijeet-builds' }],
     featured: false,
   },
 ]
